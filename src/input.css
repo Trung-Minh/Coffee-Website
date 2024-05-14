@@ -36,3 +36,12 @@
 .cf-subheadline-label{
     @apply uppercase mx-3 tracking-widest font-medium text-[13px] text-gray-500 text-center
 }
+
+.cf-explore-Mugs{
+    @apply absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 text-center hidden group-hover:block group-hover:animate-fadeIn uppercase 
+    tracking-wider py-4 px-6 text-sm cursor-pointer hover:bg-opacity-90
+}
+
+.cf-button{
+    @apply text-center uppercase tracking-wider py-4 px-8 text-sm font-semibold cursor-pointer hover:bg-opacity-95
+}
