@@ -30,6 +30,9 @@ module.exports = {
             },
             backgroundImage: {
                 'slider-bg': 'url("./image/slider.jpg")'
+            },
+            screens: {
+                'xs': '480px'
             }
         },
     },
