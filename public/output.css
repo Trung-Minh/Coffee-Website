@@ -587,6 +587,11 @@ video {
   margin-right: auto;
 }
 
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .mb-24{
   margin-bottom: 6rem;
 }
@@ -615,6 +620,10 @@ video {
   margin-top: 2rem;
 }
 
+.mb-16{
+  margin-bottom: 4rem;
+}
+
 .flex{
   display: flex;
 }
@@ -631,24 +640,20 @@ video {
   height: 1.5rem;
 }
 
-.h-\[530px\]{
-  height: 530px;
+.h-\[400px\]{
+  height: 400px;
 }
 
-.h-\[540px\]{
-  height: 540px;
+.h-\[530px\]{
+  height: 530px;
 }
 
 .h-full{
   height: 100%;
 }
 
-.h-\[500px\]{
-  height: 500px;
-}
-
-.h-\[400px\]{
-  height: 400px;
+.h-\[380px\]{
+  height: 380px;
 }
 
 .w-6{
@@ -659,8 +664,8 @@ video {
   width: 100px;
 }
 
-.w-\[65\%\]{
-  width: 65%;
+.w-\[95\%\]{
+  width: 95%;
 }
 
 .w-full{
@@ -670,10 +675,6 @@ video {
 .w-max{
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-\[95\%\]{
-  width: 95%;
 }
 
 .max-w-screen-2xl{
@@ -694,10 +695,6 @@ video {
 
 .cursor-pointer{
   cursor: pointer;
-}
-
-.grid-cols-2{
-  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .grid-cols-1{
@@ -722,10 +719,6 @@ video {
 
 .justify-between{
   justify-content: space-between;
-}
-
-.gap-4{
-  gap: 1rem;
 }
 
 .gap-8{
@@ -761,6 +754,62 @@ video {
 
 .bg-slider-bg{
   background-image: url("./image/slider.jpg");
+}
+
+.bg-\[url\(\'\.\/image\/more_Products\/\'\)\]{
+  background-image: url('./image/more_Products/');
+}
+
+.bg-\[url\(\'\.\/image\/more_Products\/trent-erwin\.jpg\'\)\]{
+  background-image: url('./image/more_Products/trent-erwin.jpg');
+}
+
+.bg-\[url\(\'\.\/image\/\.jpg\'\)\]{
+  background-image: url('./image/.jpg');
+}
+
+.bg-\[url\(\'\.\/image\/more_Products\/steve-harvey\.jpg\'\)\]{
+  background-image: url('./image/more_Products/steve-harvey.jpg');
+}
+
+.bg-\[url\(\'\.\/image\/more_Prodcts\/\.jpg\'\)\]{
+  background-image: url('./image/more_Prodcts/.jpg');
+}
+
+.bg-\[url\(\'\.\/image\/more_Prodcts\/ronaldo-arthur\.jpg\'\)\]{
+  background-image: url('./image/more_Prodcts/ronaldo-arthur.jpg');
+}
+
+.bg-\[url\(\'\.\/image\/more_Products\/\.jpg\'\)\]{
+  background-image: url('./image/more_Products/.jpg');
+}
+
+.bg-\[url\(\'\.\/image\/more_Products\/rocknwool\.jpg\'\)\]{
+  background-image: url('./image/more_Products/rocknwool.jpg');
+}
+
+.bg-\[url\(\'\.\/image\/more_Products\/ronaldo-arthur\.jpg\'\)\]{
+  background-image: url('./image/more_Products/ronaldo-arthur.jpg');
+}
+
+.bg-\[url\(\'\.\/image\/more_Products\/rawpixel\.jpg\'\)\]{
+  background-image: url('./image/more_Products/rawpixel.jpg');
+}
+
+.bg-\[url\(\'\.\/image\/more_Products\/nathan-dumlao\.jpg\'\)\]{
+  background-image: url('./image/more_Products/nathan-dumlao.jpg');
+}
+
+.bg-\[url\(\'\.\/image\/more_Products\/natanja-grun\.jpg\'\)\]{
+  background-image: url('./image/more_Products/natanja-grun.jpg');
+}
+
+.bg-\[url\(\'\.\/image\/more_Products\/liana-mikah-unsplash\.jpg\'\)\]{
+  background-image: url('./image/more_Products/liana-mikah-unsplash.jpg');
+}
+
+.bg-\[url\(\'\.\/image\/more_Products\/levi-guzman\.jpg\'\)\]{
+  background-image: url('./image/more_Products/levi-guzman.jpg');
 }
 
 .bg-cover{
@@ -869,10 +918,6 @@ video {
 
 .leading-7{
   line-height: 1.75rem;
-}
-
-.tracking-wider{
-  letter-spacing: 0.05em;
 }
 
 .text-coffee-300{
@@ -1174,6 +1219,14 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:gap-4{
+    gap: 1rem;
+  }
+
   .md\:px-32{
     padding-left: 8rem;
     padding-right: 8rem;
@@ -1189,16 +1242,16 @@ video {
     display: none;
   }
 
-  .lg\:h-\[540px\]{
-    height: 540px;
-  }
-
   .lg\:basis-1\/6{
     flex-basis: 16.666667%;
   }
 
   .lg\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:justify-start{
@@ -1209,12 +1262,12 @@ video {
     justify-content: flex-end;
   }
 
-  .lg\:gap-8{
-    gap: 2rem;
-  }
-
   .lg\:gap-4{
     gap: 1rem;
+  }
+
+  .lg\:gap-8{
+    gap: 2rem;
   }
 }
 
