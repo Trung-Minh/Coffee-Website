@@ -1,7 +1,12 @@
-/** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
+    /** @type {import('tailwindcss').Config} */
 module.exports = {
     content: ["./public/**/*.{html,js}"],
     theme: {
+        screens: {
+            'xs': '480px',
+            ...defaultTheme.screens,
+        },
         extend: {
             fontFamily: {
                 "Karla": ['Karla', 'sans-serif']
@@ -31,9 +36,6 @@ module.exports = {
             backgroundImage: {
                 'slider-bg': 'url("./image/slider.jpg")'
             },
-            screens: {
-                'xs': '480px'
-            }
         },
     },
     plugins: [],
