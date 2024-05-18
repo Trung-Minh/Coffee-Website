@@ -564,16 +564,16 @@ video {
   position: relative;
 }
 
+.left-\[calc\(-50vw\+50\%\)\]{
+  left: calc(-50vw + 50%);
+}
+
 .right-3{
   right: 0.75rem;
 }
 
 .top-3{
   top: 0.75rem;
-}
-
-.left-\[calc\(-50vw\+50\%\)\]{
-  left: calc(-50vw + 50%);
 }
 
 .mx-16{
@@ -596,14 +596,9 @@ video {
   margin-bottom: 2rem;
 }
 
-.-mx-8{
-  margin-left: -2rem;
-  margin-right: -2rem;
-}
-
-.-mx-7{
-  margin-left: -1.75rem;
-  margin-right: -1.75rem;
+.my-6{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .mb-16{
@@ -646,6 +641,10 @@ video {
   margin-top: 2rem;
 }
 
+.mt-2{
+  margin-top: 0.5rem;
+}
+
 .flex{
   display: flex;
 }
@@ -670,6 +669,10 @@ video {
   height: 250px;
 }
 
+.h-\[350px\]{
+  height: 350px;
+}
+
 .h-\[380px\]{
   height: 380px;
 }
@@ -686,18 +689,6 @@ video {
   height: 100%;
 }
 
-.h-\[340px\]{
-  height: 340px;
-}
-
-.h-\[1000px\]{
-  height: 1000px;
-}
-
-.h-\[350px\]{
-  height: 350px;
-}
-
 .h-\[300px\]{
   height: 300px;
 }
@@ -708,6 +699,10 @@ video {
 
 .w-\[100px\]{
   width: 100px;
+}
+
+.w-\[100vw\]{
+  width: 100vw;
 }
 
 .w-\[95\%\]{
@@ -721,10 +716,6 @@ video {
 .w-max{
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-\[100vw\]{
-  width: 100vw;
 }
 
 .max-w-screen-2xl{
@@ -879,12 +870,24 @@ video {
   background-image: url('./image/more_Products/trent-erwin.jpg');
 }
 
+.bg-\[url\(\'\.\/image\/parallax\.jpg\'\)\]{
+  background-image: url('./image/parallax.jpg');
+}
+
 .bg-slider-bg{
   background-image: url("./image/slider.jpg");
 }
 
-.bg-\[url\(\'\.\/image\/parallax\.jpg\'\)\]{
-  background-image: url('./image/parallax.jpg');
+.bg-\[url\(\'\.\/image\/lifestyle\/lS_1\.jpg\'\)\]{
+  background-image: url('./image/lifestyle/lS_1.jpg');
+}
+
+.bg-\[url\(\'\.\/image\/lifestyle\/lS_2\.jpg\'\)\]{
+  background-image: url('./image/lifestyle/lS_2.jpg');
+}
+
+.bg-\[url\(\'\.\/image\/lifestyle\/lS_3\.jpg\'\)\]{
+  background-image: url('./image/lifestyle/lS_3.jpg');
 }
 
 .bg-cover{
@@ -941,13 +944,12 @@ video {
   padding-bottom: 8rem;
 }
 
-.px-0{
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
 .pl-8{
   padding-left: 2rem;
+}
+
+.text-left{
+  text-align: left;
 }
 
 .text-center{
@@ -991,6 +993,14 @@ video {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-\[12px\]{
+  font-size: 12px;
+}
+
+.text-\[13px\]{
+  font-size: 13px;
 }
 
 .font-medium{
@@ -1349,10 +1359,6 @@ video {
 
   .md\:h-\[130px\]{
     height: 130px;
-  }
-
-  .md\:h-\[350px\]{
-    height: 350px;
   }
 
   .md\:h-\[380px\]{
