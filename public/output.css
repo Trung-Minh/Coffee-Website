@@ -650,6 +650,10 @@ video {
   margin-top: 2rem;
 }
 
+.block{
+  display: block;
+}
+
 .flex{
   display: flex;
 }
@@ -700,10 +704,6 @@ video {
 
 .h-px{
   height: 1px;
-}
-
-.min-h-\[400px\]{
-  min-height: 400px;
 }
 
 .min-h-\[350px\]{
@@ -1556,22 +1556,6 @@ video {
     gap: 2rem;
   }
 
-  .md\:gap-5{
-    gap: 1.25rem;
-  }
-
-  .md\:gap-3{
-    gap: 0.75rem;
-  }
-
-  .md\:gap-2{
-    gap: 0.5rem;
-  }
-
-  .md\:gap-0{
-    gap: 0px;
-  }
-
   .md\:pl-6{
     padding-left: 1.5rem;
   }
@@ -1624,10 +1608,6 @@ video {
 }
 
 @media (min-width: 1280px){
-  .xl\:w-\[65\%\]{
-    width: 65%;
-  }
-
   .xl\:pl-14{
     padding-left: 3.5rem;
   }
