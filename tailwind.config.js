@@ -38,5 +38,19 @@ module.exports = {
             },
         },
     },
-    plugins: [],
+    plugins: [
+        function({ addUtilities }) {
+            addUtilities({
+                '.transform-preserve-3d': {
+                    'transform-style': 'preserve-3d',
+                },
+                '.translate-z-scale': {
+                    'transform': 'translateZ(-1px) scale(1.5)',
+                },
+                '.perspective-450': {
+                    'perspective': '450px',
+                },
+            });
+        }
+    ],
 };
