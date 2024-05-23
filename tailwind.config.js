@@ -47,8 +47,8 @@ module.exports = {
                 '.translate-z-scale': {
                     'transform': 'translateZ(-1px) scale(1.5)',
                 },
-                '.perspective-450': {
-                    'perspective': '450px',
+                '.perspective-2': {
+                    'perspective': '2px',
                 },
             });
         }
