@@ -1363,7 +1363,6 @@ video {
 @media (min-width: 1024px){
   .cf-parallax{
     height: 70vh;
-    transform-style: preserve-3d;
   }
 }
 
@@ -1382,12 +1381,6 @@ video {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-}
-
-@media (min-width: 1024px){
-  .cf-parallax-image{
-    transform: translateZ(-1px) scale(1.5);
-  }
 }
 
 .placeholder\:text-xs::-moz-placeholder{

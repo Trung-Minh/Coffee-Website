@@ -56,7 +56,8 @@
 }
 
 .cf-parallax{
-    @apply h-[40vh] lg:h-[70vh] lg:transform-preserve-3d
+    @apply h-[40vh] lg:h-[70vh] 
+    /* lg:transform-preserve-3d */
 }
 
 .cf-no-parallax{
@@ -64,5 +65,6 @@
 }
 
 .cf-parallax-image{
-    @apply absolute w-full h-full -z-10 bg-cover bg-center bg-fixed lg:translate-z-scale
+    @apply absolute w-full h-full -z-10 bg-cover bg-center bg-fixed 
+    /* lg:translate-z-scale */
 }
